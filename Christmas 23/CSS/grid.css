@@ -1,0 +1,123 @@
+/* CSS Document */
+
+body {
+	background-color: palegoldenrod
+}
+
+#container {
+	width: 100%;
+	background-color: #000000;
+	min-height: 500px;
+}
+
+#presents {
+	display: grid;
+	width: 85%;
+	margin: 0 auto;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-areas:
+		"it1 it2 it3"
+		"it4 ad  it5"
+		"it6 it7 it8";
+	grid-gap: 2%;
+	justify-content: center; 
+	padding: 4em
+}
+
+#item1 {
+	grid-area: it1;
+	background-color: #f00;
+	min-height: 300px;
+	background-image: url("../Images/dolphin-1019616_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#item2 {
+	grid-area: it2;
+	background-color: #00f;
+	min-height: 300px;
+	background-image: url("../Images/charger-1833346_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#item3 {
+	grid-area: it3;
+	background-color: #0f0;
+	min-height: 300px;
+	background-image: url("../Images/mount-rushmore-2268636_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#item4 {
+	grid-area: it4;
+	background-color: #fff;
+	min-height:300px;
+	background-image: url("../Images/animal-1298778_1920.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#ad {
+	grid-area: ad;
+	background-color: #fff;
+	min-height: 300px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+#item5 {
+	grid-area: it5;
+	background-color: #f0f;
+	min-height: 300px;
+	background-image: url("../Images/eiffel-tower-3349075_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#item6 {
+	grid-area: it6;
+	background-color: #0ff;
+	min-height: 300px;
+	background-image: url("../Images/loveable-1711013_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#item7 {
+	grid-area: it8;
+	background-color: #fff;
+	min-height: 300px;
+	background-image: url("../Images/tree-2503151_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#item8 {
+	grid-area: it7;
+	background-color: #FAFF33;
+	min-height: 300px;
+	background-image: url("../Images/administration-1846270_1920.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

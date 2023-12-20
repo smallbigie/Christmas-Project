@@ -1,0 +1,26 @@
+/* CSS Document */
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images*/
+body {
+	background-color: #FF0004;
+}
+
+header {
+	background-image: url(../Images/christmas-1911637_1920.jpg);
+	height: 300px;
+}
+
+footer {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
